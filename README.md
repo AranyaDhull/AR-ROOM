@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center" id="top"> 
   <img src="./.github/app.gif" alt="3D WebXR Furniture" />
 
@@ -117,3 +118,6 @@ Made with :heart: by <a href="https://github.com/cynthiachiu" target="_blank">cy
 &#xa0;
 
 <a href="#top">Back to top</a>
+=======
+# AR-ROOM
+>>>>>>> 25d25c70aa47099a9e6967ef9a643766f1b024ae
