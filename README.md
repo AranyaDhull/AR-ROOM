@@ -4,7 +4,7 @@
 
 &#xa0;
 
-<a href="https://cynthia-3d-webxr-furniture-placement.netlify.app/">Demo</a>
+<a href=https://padmavatisb.github.io/Room_Decor/</a>
 
 </div>
 
