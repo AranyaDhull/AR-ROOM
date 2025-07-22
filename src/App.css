@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  overflow: hidden; /*Ensures full-screen canvas without scroll */
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  width: 100vw;       /* Full width for AR view */
+  height: 100vh;      /* Full height for AR view */
+  display: block;
+  position: fixed;    /* Fix canvas for WebXR */
+  top: 0;
+  left: 0;
+  z-index: 1;
+  touch-action: none; /* Required for multitouch gestures (Gizmo) */
 }
 
 .App-logo {
@@ -37,7 +51,7 @@
   }
 }
 
-/* Just Updated ARButton style */
+/* AR Button */
 #ARButton {
   position: absolute;
   bottom: 20%;
@@ -57,7 +71,7 @@
   background-color: #0056b3;
 }
 
-/* Selected model indicator */
+/* Selected model */
 .clicked {
   border: 2px solid #00ffff;
   background-color: #333;
